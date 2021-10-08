@@ -5,12 +5,12 @@ require(raster)
 set.seed(123) # We did not set a seed in the analysis, but feel free to do so here for consistency. The data generated for the analysis was generated using this script, and with a different random seed. That being said, fitting the model with this different seed should produce remarkably similar results, a testament to the lack of sensitivity to differing random points.
 
 #Load in rasters
-berry = raster('rasters/berries.tif')
-fish = raster('rasters/fish.tif')
-mammal = raster('rasters/squirrel.tif')
-hedysarum = raster('rasters/hedysarum.tif')
-town = raster('rasters/towns_m.tif')
-cabin = raster('rasters/cabins_m.tif')
+berry = raster('inputs/berries.tif')
+fish = raster('inputs/fish.tif')
+mammal = raster('inputs/squirrel.tif')
+hedysarum = raster('inputs/hedysarum.tif')
+town = raster('inputs/towns_m.tif')
+cabin = raster('inputs/cabins_m.tif')
 
 resources = stack(berry, fish, mammal, hedysarum, town, cabin)
 # If using seasonal resources, we can use this.

@@ -27,7 +27,7 @@ Some of these scripts take some time (in total, more than a day) to run, althoug
 
 * `NLMs` (directory): Contains three simulated landscapes generated from the R NLMR package. All three of these landscapes were used in the analysis for Section 3.3 (along with many others). Additional NLMs can be generated using the `write.NLM` function.
 
-* `rasters` (directory): Contains the six true environmental rasters used for all the grizzly bear model fits.
+* `inputs` (directory): Contains the six true environmental rasters used for all the grizzly bear model fits.
 
 * `GIFs` (directory): Contains simulated movement tracks (in the form of animated GIFs) from each model (null, resource-only, memory-only, resource-memory) from `grizzly_simHMM_20210506.R`. These can be recreated by toggling GIF = TRUE, although make sure to set the seed properly to get the same exact graphs.
 

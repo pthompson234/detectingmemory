@@ -25,6 +25,6 @@ for (ID in IDs) {
                      kappa = pars[2], beta.res = pars[3:8], threshold = pars[9],
                      beta.mem = pars[10], mean.mem = pars[11], sd.mem = pars[12],
                      alpha.exp = pars[15], init.cond = 1, same.layers = TRUE,
-                     res.layers = paste0('rasters/', ID), BIC = TRUE, x0 = ID.x0,
+                     res.layers = paste0('inputs/', ID), BIC = TRUE, x0 = ID.x0,
                      markov.matrix = A, parallel = 25, mu.stationary = 30)
 }
